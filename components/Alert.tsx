@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { Button } from './ui/button';
 import { Card, CardContent } from './ui/card';
 
-interface PermissionCardProps 
+interface PermissionCardProps {
   title: string;
   iconUrl?: string;
 }
